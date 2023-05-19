@@ -1,0 +1,10 @@
+import React, {Component} from "react"
+class State extends Component{
+render(props){
+
+    return <h1>This is state ftn using props {this.props.name} and {this.props.Group}   </h1>
+}
+
+
+}
+export default State
